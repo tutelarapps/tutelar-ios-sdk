@@ -1,0 +1,455 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tutelar",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Tutelar"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "Tutelar"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "Tutelar"
+      },
+      {
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "Tutelar"
+      },
+      {
+        "kind": "Import",
+        "name": "MapKit",
+        "printedName": "MapKit",
+        "declKind": "Import",
+        "moduleName": "Tutelar"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TutelarDelegate",
+        "printedName": "TutelarDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onFailure",
+            "printedName": "onFailure(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Tutelar@objc(pl)TutelarDelegate(im)onFailureWithMessage:",
+            "mangledName": "$s7Tutelar0A8DelegateP9onFailure7messageySS_tF",
+            "moduleName": "Tutelar",
+            "genericSig": "<τ_0_0 where τ_0_0 : Tutelar.TutelarDelegate>",
+            "sugared_genericSig": "<Self where Self : Tutelar.TutelarDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSuccess",
+            "printedName": "onSuccess(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Tutelar@objc(pl)TutelarDelegate(im)onSuccessWithData:",
+            "mangledName": "$s7Tutelar0A8DelegateP9onSuccess4dataySDySSypG_tF",
+            "moduleName": "Tutelar",
+            "genericSig": "<τ_0_0 where τ_0_0 : Tutelar.TutelarDelegate>",
+            "sugared_genericSig": "<Self where Self : Tutelar.TutelarDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Tutelar@objc(pl)TutelarDelegate",
+        "mangledName": "$s7Tutelar0A8DelegateP",
+        "moduleName": "Tutelar",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Tutelar",
+        "printedName": "Tutelar",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tutelar",
+                "printedName": "Tutelar.Tutelar",
+                "usr": "c:@M@Tutelar@objc(cs)Tutelar"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TutelarAAC3keyABSS_tcfc",
+            "mangledName": "$s7TutelarAAC3keyABSS_tcfc",
+            "moduleName": "Tutelar",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceDetails",
+            "printedName": "getDeviceDetails(withDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Tutelar.TutelarDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TutelarDelegate",
+                    "printedName": "Tutelar.TutelarDelegate",
+                    "usr": "c:@M@Tutelar@objc(pl)TutelarDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Tutelar@objc(cs)Tutelar(im)getDeviceDetailsWithDelegate:",
+            "mangledName": "$s7TutelarAAC16getDeviceDetails12withDelegateyAA0aF0_pSg_tF",
+            "moduleName": "Tutelar",
+            "objc_name": "getDeviceDetailsWithDelegate:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tutelar",
+                "printedName": "Tutelar.Tutelar",
+                "usr": "c:@M@Tutelar@objc(cs)Tutelar"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Tutelar@objc(cs)Tutelar(im)init",
+            "mangledName": "$s7TutelarAACABycfc",
+            "moduleName": "Tutelar",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Tutelar@objc(cs)Tutelar",
+        "mangledName": "$s7TutelarAAC",
+        "moduleName": "Tutelar",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceDetail",
+        "printedName": "DeviceDetail",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getDeviceDetail",
+            "printedName": "getDeviceDetail()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Tutelar12DeviceDetailC03getbC0SDySSypGyF",
+            "mangledName": "$s7Tutelar12DeviceDetailC03getbC0SDySSypGyF",
+            "moduleName": "Tutelar",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Tutelar12DeviceDetailC",
+        "mangledName": "$s7Tutelar12DeviceDetailC",
+        "moduleName": "Tutelar",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Function",
+        "name": "screenSize",
+        "printedName": "screenSize()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.String?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7Tutelar10screenSizeSSSgyF",
+        "mangledName": "$s7Tutelar10screenSizeSSSgyF",
+        "moduleName": "Tutelar",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 395,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "kind": "StringLiteral",
+      "offset": 421,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "kind": "StringLiteral",
+      "offset": 441,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "kind": "StringLiteral",
+      "offset": 463,
+      "length": 27,
+      "value": "\"verify-client?public_key=\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "kind": "StringLiteral",
+      "offset": 321,
+      "length": 7,
+      "value": "\"Tutelar.Tutelar\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "kind": "StringLiteral",
+      "offset": 2739,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2767,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4406,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4554,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13402,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+framework module Tutelar {
+  umbrella header "Tutelar.h"
+
+  export *
+  module * { export * }
+}
+
+module Tutelar.Swift {
+  header "Tutelar-Swift.h"
+  requires objc
+}
