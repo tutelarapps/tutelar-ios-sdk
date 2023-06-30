@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Tutelar-Swift.h</key>
 		<data>
-		UGcSLGGzlqW2G4VFV8hrphFOW8o=
+		1QZSax+t9GkaVO0C9TfIUn5/Uvg=
 		</data>
 		<key>Headers/Tutelar.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/Tutelar.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		eFl+XJ53EsrMbiSAyRubFN/O8xQ=
+		2z1inubPYrxTth3adXDvsmqrHwU=
 		</data>
 		<key>Modules/Tutelar.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Y28q7nvYRvCyOJsbwpVU+EapGaI=
+		pIwXC2rhv1ar6r3sqOQf++OwDOA=
 		</data>
 		<key>Modules/Tutelar.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/Tutelar.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Y28q7nvYRvCyOJsbwpVU+EapGaI=
+		pIwXC2rhv1ar6r3sqOQf++OwDOA=
 		</data>
 		<key>Modules/Tutelar.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MOAcUVEb4UmIm8DokEg2kCbyxs0=
+		KhJFd+2s0NCsdt1qtUDchB71GPk=
 		</data>
 		<key>Modules/Tutelar.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		eFl+XJ53EsrMbiSAyRubFN/O8xQ=
+		2z1inubPYrxTth3adXDvsmqrHwU=
 		</data>
 		<key>Modules/Tutelar.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		l/IuR+6J4TSqz+kupDqPj3wdL9w=
+		XZ2OATgdeaS4cLfeGbzXevHA4LM=
 		</data>
 		<key>Modules/Tutelar.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/Tutelar.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		l/IuR+6J4TSqz+kupDqPj3wdL9w=
+		XZ2OATgdeaS4cLfeGbzXevHA4LM=
 		</data>
 		<key>Modules/Tutelar.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eG2ptGb6j8a+ik7TZ/VGnTxLYQc=
+		QcWSu1LEDnRnmLhfmuKAIhwvZQ0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SXgb7fWsKtj7fC92ABeSyj5aNz65a6FBmz7t/OzO0P0=
+			1B6y5q1MDcNxvvD/xZagxNgQrk1bsFbFsRzx2nDsp6U=
 			</data>
 		</dict>
 		<key>Headers/Tutelar.h</key>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			31zeCsiKsBee3d4qgkndQ4pVHPXTPzOGHFLvmZHvKUg=
+			GTRC754TwChS3wrM9oFrYXgWQAgjDhzECVm/mq8Am+I=
 			</data>
 		</dict>
 		<key>Modules/Tutelar.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wzUDxMqIFg59vmciP0ltStpZDL3rl7JEO4fIzQYk5m8=
+			ZEZsirLa2wLpdG1az8N4RdvdgcpuYDRUJnYXNUO4sI8=
 			</data>
 		</dict>
 		<key>Modules/Tutelar.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wzUDxMqIFg59vmciP0ltStpZDL3rl7JEO4fIzQYk5m8=
+			ZEZsirLa2wLpdG1az8N4RdvdgcpuYDRUJnYXNUO4sI8=
 			</data>
 		</dict>
 		<key>Modules/Tutelar.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			foNsQv7oUd0PnRfmwv+Oag+H9l1fCkjRVkLjv50lPgc=
+			iEUaTxl1iJZyzCSbhfveockajIwFFsORwWrv0nftjAc=
 			</data>
 		</dict>
 		<key>Modules/Tutelar.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			31zeCsiKsBee3d4qgkndQ4pVHPXTPzOGHFLvmZHvKUg=
+			GTRC754TwChS3wrM9oFrYXgWQAgjDhzECVm/mq8Am+I=
 			</data>
 		</dict>
 		<key>Modules/Tutelar.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XEzGDGjCpWZ2TzeKc9XsX7AtYYAiUtDapLbqMWD7HW4=
+			ZdJpWWEBLs8nAe9FdKeTfrlvgo3MnS8+KU/XZm2c3r4=
 			</data>
 		</dict>
 		<key>Modules/Tutelar.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XEzGDGjCpWZ2TzeKc9XsX7AtYYAiUtDapLbqMWD7HW4=
+			ZdJpWWEBLs8nAe9FdKeTfrlvgo3MnS8+KU/XZm2c3r4=
 			</data>
 		</dict>
 		<key>Modules/Tutelar.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BpujxTEL36FLHv1BlpntdlR8KkjNsdHL/HEQxd/V/hE=
+			7O9OAbE4oS3gxKZ8sBy1hnWyLXLN1E6nZXjcaVAGJZ4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

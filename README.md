@@ -12,7 +12,7 @@ Tutelar are risk management experts. Our high powered tech-enabled solutions sim
 
 #### Step 1 - Installation
 ```
-pod 'Tutelar', '~> 0.0.1'
+pod 'Tutelar', '~> 0.0.2'
 pod update
 ```
 #### Step 2 - Import SDK
@@ -22,12 +22,12 @@ import Tutelar
 #### Step 3 - Initialize SDK
 To initialize the SDK add the below line of code with the public key you retrieved from Tutelar merchant panel. If you don't have a public key create new one.
 ```
-let tutelar = Tutelar(key: " Your Unique Public Key ")
+let tutelar = Fingerprint(key: " Your Unique Public Key ")
 ```
 #### Step 4 - Implement  Delegate Method
 Use the below code to obtain the Device result.
 ```
-extension ViewController: TutelarDelegate{
+extension ViewController: FingerprintDelegate{
     func onFailure(message: String) {
         // Failure Callback.
     }

@@ -12,13 +12,13 @@ import SystemConfiguration
 import UIKit
 import _Concurrency
 import _StringProcessing
-@objc public protocol TutelarDelegate {
+@objc public protocol FingerprintDelegate {
   @objc func onFailure(message: Swift.String)
-  @objc func onSuccess(data: [Swift.String : Any])
+  @objc func onSuccess(data: Swift.String)
 }
-@objc public class Tutelar : ObjectiveC.NSObject {
+@objc public class Fingerprint : ObjectiveC.NSObject {
   public init(key: Swift.String)
-  @objc public func getDeviceDetails(withDelegate: Tutelar.TutelarDelegate?)
+  @objc public func getDeviceDetails(withDelegate: Tutelar.FingerprintDelegate?)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class DeviceDetail {

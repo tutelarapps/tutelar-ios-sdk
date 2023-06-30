@@ -51,8 +51,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "TutelarDelegate",
-        "printedName": "TutelarDelegate",
+        "name": "FingerprintDelegate",
+        "printedName": "FingerprintDelegate",
         "children": [
           {
             "kind": "Function",
@@ -72,11 +72,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@Tutelar@objc(pl)TutelarDelegate(im)onFailureWithMessage:",
-            "mangledName": "$s7Tutelar0A8DelegateP9onFailure7messageySS_tF",
+            "usr": "c:@M@Tutelar@objc(pl)FingerprintDelegate(im)onFailureWithMessage:",
+            "mangledName": "$s7Tutelar19FingerprintDelegateP9onFailure7messageySS_tF",
             "moduleName": "Tutelar",
-            "genericSig": "<τ_0_0 where τ_0_0 : Tutelar.TutelarDelegate>",
-            "sugared_genericSig": "<Self where Self : Tutelar.TutelarDelegate>",
+            "genericSig": "<τ_0_0 where τ_0_0 : Tutelar.FingerprintDelegate>",
+            "sugared_genericSig": "<Self where Self : Tutelar.FingerprintDelegate>",
             "protocolReq": true,
             "declAttributes": [
               "ObjC"
@@ -96,30 +96,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@Tutelar@objc(pl)TutelarDelegate(im)onSuccessWithData:",
-            "mangledName": "$s7Tutelar0A8DelegateP9onSuccess4dataySDySSypG_tF",
+            "usr": "c:@M@Tutelar@objc(pl)FingerprintDelegate(im)onSuccessWithData:",
+            "mangledName": "$s7Tutelar19FingerprintDelegateP9onSuccess4dataySS_tF",
             "moduleName": "Tutelar",
-            "genericSig": "<τ_0_0 where τ_0_0 : Tutelar.TutelarDelegate>",
-            "sugared_genericSig": "<Self where Self : Tutelar.TutelarDelegate>",
+            "genericSig": "<τ_0_0 where τ_0_0 : Tutelar.FingerprintDelegate>",
+            "sugared_genericSig": "<Self where Self : Tutelar.FingerprintDelegate>",
             "protocolReq": true,
             "declAttributes": [
               "ObjC"
@@ -129,8 +116,8 @@
           }
         ],
         "declKind": "Protocol",
-        "usr": "c:@M@Tutelar@objc(pl)TutelarDelegate",
-        "mangledName": "$s7Tutelar0A8DelegateP",
+        "usr": "c:@M@Tutelar@objc(pl)FingerprintDelegate",
+        "mangledName": "$s7Tutelar19FingerprintDelegateP",
         "moduleName": "Tutelar",
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
@@ -141,8 +128,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Tutelar",
-        "printedName": "Tutelar",
+        "name": "Fingerprint",
+        "printedName": "Fingerprint",
         "children": [
           {
             "kind": "Constructor",
@@ -151,9 +138,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Tutelar",
-                "printedName": "Tutelar.Tutelar",
-                "usr": "c:@M@Tutelar@objc(cs)Tutelar"
+                "name": "Fingerprint",
+                "printedName": "Tutelar.Fingerprint",
+                "usr": "c:@M@Tutelar@objc(cs)Fingerprint"
               },
               {
                 "kind": "TypeNominal",
@@ -163,8 +150,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7TutelarAAC3keyABSS_tcfc",
-            "mangledName": "$s7TutelarAAC3keyABSS_tcfc",
+            "usr": "s:7Tutelar11FingerprintC3keyACSS_tcfc",
+            "mangledName": "$s7Tutelar11FingerprintC3keyACSS_tcfc",
             "moduleName": "Tutelar",
             "declAttributes": [
               "AccessControl"
@@ -184,21 +171,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Tutelar.TutelarDelegate?",
+                "printedName": "Tutelar.FingerprintDelegate?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "TutelarDelegate",
-                    "printedName": "Tutelar.TutelarDelegate",
-                    "usr": "c:@M@Tutelar@objc(pl)TutelarDelegate"
+                    "name": "FingerprintDelegate",
+                    "printedName": "Tutelar.FingerprintDelegate",
+                    "usr": "c:@M@Tutelar@objc(pl)FingerprintDelegate"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@Tutelar@objc(cs)Tutelar(im)getDeviceDetailsWithDelegate:",
-            "mangledName": "$s7TutelarAAC16getDeviceDetails12withDelegateyAA0aF0_pSg_tF",
+            "usr": "c:@M@Tutelar@objc(cs)Fingerprint(im)getDeviceDetailsWithDelegate:",
+            "mangledName": "$s7Tutelar11FingerprintC16getDeviceDetails12withDelegateyAA0bG0_pSg_tF",
             "moduleName": "Tutelar",
             "objc_name": "getDeviceDetailsWithDelegate:",
             "declAttributes": [
@@ -214,14 +201,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Tutelar",
-                "printedName": "Tutelar.Tutelar",
-                "usr": "c:@M@Tutelar@objc(cs)Tutelar"
+                "name": "Fingerprint",
+                "printedName": "Tutelar.Fingerprint",
+                "usr": "c:@M@Tutelar@objc(cs)Fingerprint"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@Tutelar@objc(cs)Tutelar(im)init",
-            "mangledName": "$s7TutelarAACABycfc",
+            "usr": "c:@M@Tutelar@objc(cs)Fingerprint(im)init",
+            "mangledName": "$s7Tutelar11FingerprintCACycfc",
             "moduleName": "Tutelar",
             "overriding": true,
             "implicit": true,
@@ -235,8 +222,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Tutelar@objc(cs)Tutelar",
-        "mangledName": "$s7TutelarAAC",
+        "usr": "c:@M@Tutelar@objc(cs)Fingerprint",
+        "mangledName": "$s7Tutelar11FingerprintC",
         "moduleName": "Tutelar",
         "declAttributes": [
           "AccessControl",
@@ -382,72 +369,72 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Fingerprint.swift",
       "kind": "BooleanLiteral",
-      "offset": 395,
+      "offset": 396,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Fingerprint.swift",
       "kind": "StringLiteral",
-      "offset": 421,
+      "offset": 422,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Fingerprint.swift",
       "kind": "StringLiteral",
-      "offset": 441,
+      "offset": 442,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Fingerprint.swift",
       "kind": "StringLiteral",
-      "offset": 463,
+      "offset": 464,
       "length": 27,
       "value": "\"verify-client?public_key=\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Fingerprint.swift",
       "kind": "StringLiteral",
-      "offset": 321,
-      "length": 7,
-      "value": "\"Tutelar.Tutelar\""
+      "offset": 318,
+      "length": 11,
+      "value": "\"Tutelar.Fingerprint\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Fingerprint.swift",
       "kind": "StringLiteral",
-      "offset": 2739,
+      "offset": 2921,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Fingerprint.swift",
       "kind": "BooleanLiteral",
-      "offset": 2767,
+      "offset": 2949,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Fingerprint.swift",
       "kind": "BooleanLiteral",
-      "offset": 4406,
+      "offset": 4722,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Fingerprint.swift",
       "kind": "BooleanLiteral",
-      "offset": 4554,
+      "offset": 4870,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Tutelar.swift",
+      "filePath": "\/Users\/admin\/Documents\/Tutelar\/Tutelar\/Tutelar\/Tutelar\/Fingerprint.swift",
       "kind": "BooleanLiteral",
-      "offset": 13402,
+      "offset": 13718,
       "length": 4,
       "value": "true"
     }

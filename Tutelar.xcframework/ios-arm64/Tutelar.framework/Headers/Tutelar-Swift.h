@@ -230,7 +230,6 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -252,21 +251,21 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
-@protocol TutelarDelegate;
+@protocol FingerprintDelegate;
 
-SWIFT_CLASS("_TtC7Tutelar7Tutelar")
-@interface Tutelar : NSObject
-- (void)getDeviceDetailsWithDelegate:(id <TutelarDelegate> _Nullable)withDelegate;
+SWIFT_CLASS("_TtC7Tutelar11Fingerprint")
+@interface Fingerprint : NSObject
+- (void)getDeviceDetailsWithDelegate:(id <FingerprintDelegate> _Nullable)withDelegate;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 @class NSString;
 
-SWIFT_PROTOCOL("_TtP7Tutelar15TutelarDelegate_")
-@protocol TutelarDelegate
+SWIFT_PROTOCOL("_TtP7Tutelar19FingerprintDelegate_")
+@protocol FingerprintDelegate
 - (void)onFailureWithMessage:(NSString * _Nonnull)message;
-- (void)onSuccessWithData:(NSDictionary<NSString *, id> * _Nonnull)data;
+- (void)onSuccessWithData:(NSString * _Nonnull)data;
 @end
 
 
