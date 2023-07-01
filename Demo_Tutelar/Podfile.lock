@@ -1,0 +1,16 @@
+PODS:
+  - Tutelar (0.0.2)
+
+DEPENDENCIES:
+  - Tutelar (~> 0.0.2)
+
+SPEC REPOS:
+  trunk:
+    - Tutelar
+
+SPEC CHECKSUMS:
+  Tutelar: 3e5dc44abce334576db41cd56b60f78bede5964a
+
+PODFILE CHECKSUM: 4fee114355f1356685c49d21f53f023f64e45fc9
+
+COCOAPODS: 1.12.1
