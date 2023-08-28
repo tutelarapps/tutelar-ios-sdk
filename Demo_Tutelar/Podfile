@@ -7,6 +7,6 @@ target 'Demo_Tutelar' do
 
   # Pods for Demo_Tutelar
 
-pod 'Tutelar', '~> 0.0.2'
+pod 'Tutelar', '~> 0.0.3'
 
 end

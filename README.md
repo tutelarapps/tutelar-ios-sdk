@@ -12,7 +12,7 @@ Tutelar are risk management experts. Our high powered tech-enabled solutions sim
 
 #### Step 1 - Installation
 ```
-pod 'Tutelar', '~> 0.0.2'
+pod 'Tutelar', '~> 0.0.3'
 pod update
 ```
 #### Step 2 - Import SDK
